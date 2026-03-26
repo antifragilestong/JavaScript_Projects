@@ -1,0 +1,16 @@
+
+p {
+    font-family: Arial, Helvetica, sans-serif, Rockwell Extra Bold;
+    text-align: center; /* Justify text within paragraph elements */
+    letter-spacing: 0.5px; /* This expands the text slightly */
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* Paragraph element hover effect */
+p:hover {
+    transition: transform 0s; /* This makes the transform effect last 1 second */
+	transform: scale(1.1); /* This makes the paragraphs increase slightly in size when hovered over */
+}
+
