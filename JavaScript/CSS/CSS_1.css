@@ -1,0 +1,128 @@
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif, Rockwell Extra Bold;
+    text-align: center; /* Justify text within paragraph elements */ 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif, Rockwell Extra Bold;
+    text-align: center; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 40px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif, Rockwell Extra Bold;
+    text-align: center; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 20px;
+}  
+
+li {
+    font-family: Arial, Helvetica, sans-serif, Rockwell Extra Bold;
+    text-align: center; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif, Rockwell Extra Bold;
+    text-align: center; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 20px;
+    
+   
+}
+
+
+.placeholder {
+    text-align: center;
+}
+
+/* Paragraph element hover effect */
+p:hover {
+    transition: transform 0s; /* This makes the transform effect last 1 second */
+	transform: scale(1.1); /* This makes the paragraphs increase slightly in size when hovered over */
+}
+
+
+
+/* Form element */
+form {
+    
+    width: 60%; /* The contact form covers 80% of the width of the page */
+    margin-left: 20%; /* This centers the contact form by giving it a left margin of 10% */
+    justify-content: center; /* Horizontal centering */
+     border-radius: 5px; /* Rounds the corners of the contact form */
+    background-color: #f2f2f2; 
+    padding: 10px; /* Adds padding to the contact form */
+    font-family: "Trebuchet MS", Optima;
+}
+
+
+/***** CONTACT FORM STYLING *****/
+/* input[type=text] targets all text input sections of the contact form */
+input[type=text] {
+    width: 100%; /* Each input box covers the full width of the container */
+    padding: 12px; /* Adds padding within the text box */
+    border: 1px solid #ccc; /* Setting a solid border and its color */
+    border-radius: 4px; /* Slightly rounds the corners of the text box border */
+    box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
+    margin-top: 6px; /* Adds a margin to the top of the text box */
+    margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
+    resize: vertical; /* This allows the user to resize the text boxes vertically */
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+/* Hover effects for input boxes */
+input[type=text]:hover {
+    box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
+}
+
+
+
+/* Submit button */
+input[type=submit] {
+    background-color: black; /* Sets the background color of the submit button to black */
+    color: white; /* Sets the font color of the Submit button to white */
+    font-weight: bold; /* Makes the font of the submit button bold */
+    padding: 12px 20px; /* Adds padding to the submit button */
+    border: none; /* Removes the border from the submit button */
+    border-radius: 4px; /* Gives the submit button the same rounded corners as the text boxes */
+    cursor: pointer; /* Changes the cursor to pointer when over the submit button */
+    display: block; /* Allows the submit button to be centered */
+    margin-left: auto; /* In combination with "margin-right: auto" this will center the submit button */
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+/* Hover effect for submit button */
+input[type=submit]:hover {
+    background-color: white; /* Turns the background of the submit button white when the user hovers over it */
+    color: black; /* Turns the font black when hovered over */
+    transform: scale(1.5); /* Makes the button increase 1.5 times in size */
+    transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
+}
+
+
+
+/***** END OF CONTACT FORM STYLING *****/
+
+.button-link {
+  display: block;
+  padding: 28px 30px;
+  background-color: #072849af;
+  color: white;
+  text-decoration: none; /* Removes underline */
+  border-radius: 30px;
+  text-align: center;
+  font-size:large;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.telable {
+    margin-left: 30%;
+}
