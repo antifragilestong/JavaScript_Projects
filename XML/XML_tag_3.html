@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Javascript assignment</title>
+	<meta charset="utf-8">
+	<meta name="K Wong" content="XML">
+	
+</head>
+
+<body> 
+  <p id="XML_Example"></p> 
+
+  <script>
+    var XML_Parser, XML_Document;
+
+    // 1. Fixed: Used backticks for a multi-line string (template literal)
+    var Movie = `
+    <movie>
+      <title>Schindler's List</title>
+      <director>Steven Spielberg</director>
+      <starring>Liam Neeson</starring>
+      <year>1993</year>
+    </movie>`;
+
+    // 2. Initialize the parser
+    XML_Parser = new DOMParser();
+
+    // 3. Fixed: Wrapped "text/xml" in quotes
+    XML_Document = XML_Parser.parseFromString(Movie, "text/xml");
+
+    // 4. Fixed: Wrapped "XML_Example" and "title" in quotes
+    document.getElementById("XML_Example").innerHTML = 
+      XML_Document.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+  </script> 
+</body>
+
+
+</html>
